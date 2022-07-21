@@ -5,7 +5,7 @@ from skimage.io import imread
 
 
 # download the image
-img_url = 'https://pakutaso.cdn.rabify.me/shared/img/thumb/shikun20220402_114719-2.jpg.webp?d=350'
+img_url = 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Kamakura_Budda_Daibutsu_front_1885.jpg/640px-Kamakura_Budda_Daibutsu_front_1885.jpg'
 
 im = imread(img_url)
 
