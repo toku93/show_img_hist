@@ -5,7 +5,7 @@ from skimage.io import imread
 
 
 # download the image
-img_url = 'https://commons.wikimedia.org/wiki/File:%E5%90%8D%E5%B7%A5%E5%A4%A7(20200122)_03.jpg
+img_url = 'https://commons.wikimedia.org/wiki/File:%E5%90%8D%E5%B7%A5%E5%A4%A7(20200122)_03.jpg'
 im = imread(img_url)
 
 st.image(im, caption='image from wikimedia commons',
